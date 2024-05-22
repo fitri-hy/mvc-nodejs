@@ -1,0 +1,41 @@
+<header class="fixed z-50 flex w-full items-center justify-between px-4 lg:px-6 py-4 bg-slate-800">
+    <div class="flex gap-2 items-center">
+        <img class="h-8 w-8" src="/images/logo/logo.png">
+        <h1 class="font-extrabold text-xl text-gray-200">HyTech</h1>
+    </div>
+    <div class="flex items-center gap-2">
+        <nav class="hidden lg:flex gap-1 text-gray-300 font-semibold">
+            <a href="/" class="px-4 py-2 hover:bg-slate-700 rounded-lg">
+                Home
+            </a>
+            <a href="/about" class="px-4 py-2 hover:bg-slate-700 rounded-lg">
+                About
+            </a>
+            <a href="/contact" class="px-4 py-2 hover:bg-slate-700 rounded-lg">
+                Contact
+            </a>
+        </nav>
+        <a href="https://github.com/fitri-hy/mvc-nodejs" class="hover:bg-slate-700 rounded-lg p-2" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <button id="toggleMenu" class="lg:hidden text-gray-300 focus:outline-none">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </div>
+</header>
+<nav id="menu" class="fixed lg:hidden h-screen inset-y-0 left-0 pt-20 pb-12 z-40 w-64 transform -translate-x-full lg:translate-x-0 transition duration-300 ease-in-out">
+    <div class="p-4 bg-slate-800 h-full border-r border-slate-900 rounded-r-xl">
+        <button id="closeMenu" class="absolute right-4 text-rose-600 hover:text-rose-700 -mt-2">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <a href="/" class="mt-4 px-4 block text-gray-300 font-semibold py-2 hover:bg-slate-700 rounded-lg">
+            <i class="fa fa-home"></i> Home
+        </a>
+        <a href="/about" class="px-4 block text-gray-300 font-semibold py-2 hover:bg-slate-700 rounded-lg">
+            <i class="fa-solid fa-circle-info"></i> About</a>
+        <a href="/contact" class="px-4 block text-gray-300 font-semibold py-2 hover:bg-slate-700 rounded-lg">
+            <i class="fa fa-envelope"></i> Contact</a>
+    </div>
+</nav>

@@ -1,6 +1,6 @@
 class ItemModel {
     constructor() {
-        this.items = ['Item 1', 'Item 2', 'Item 3'];
+        this.items = ['Hello !!', 'Welcome to MVC NodeJS', 'Example To do List'];
     }
 
     getItems() {
@@ -9,6 +9,14 @@ class ItemModel {
 
     addItem(item) {
         this.items.push(item);
+    }
+
+    editItem(index, newItem) {
+        this.items[index] = newItem;
+    }
+
+    deleteItem(index) {
+        this.items.splice(index, 1);
     }
 }
 
