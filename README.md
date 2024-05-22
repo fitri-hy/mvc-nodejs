@@ -1,6 +1,6 @@
-# MVC Node JS
+# MVC NodeJS
 
-Aplication MVC Using Node JS &amp; Template Ejs
+Application Javascript MVC (Models, Views, Controllers), Templating & Routing.
 
 ```
 git clone https://github.com/fitri-hy/mvc-nodejs.git
@@ -8,3 +8,8 @@ cd mvc-nodejs
 npm install
 npm start
 ```
+
+## Tech
+- Node JS
+- EJS
+- Tailwind
