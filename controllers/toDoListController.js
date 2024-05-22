@@ -15,7 +15,7 @@ exports.addItem = (req, res) => {
 
 exports.editItem = (req, res) => {
     const index = req.body.editIndex;
-    const newItem = req.body.editItem.trim(); // Trim whitespace from the edited item
+    const newItem = req.body.editItem.trim();
     if (index !== undefined && newItem !== "") {
         itemModel.editItem(index, newItem);
     }
