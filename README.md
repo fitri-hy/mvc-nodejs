@@ -12,4 +12,4 @@ npm start
 ## Tech
 - Node JS
 - EJS
-- Tailwind
+- Tailwind CSS
