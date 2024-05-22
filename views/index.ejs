@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+
+<h1>Item List</h1>
+<ul>
+    <% items.forEach(item => { %>
+        <li><%= item %></li>
+    <% }) %>
+</ul>
+
+<form action="/add" method="POST">
+    <input type="text" name="newItem" placeholder="New item">
+    <button type="submit">Add Item</button>
+</form>
+
+<%- include('partials/footer') %>
