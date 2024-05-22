@@ -1,4 +1,4 @@
-const itemModel = require('../models/itemModel');
+const itemModel = require('../models/toDoListModel');
 
 exports.getItems = (req, res) => {
     const items = itemModel.getItems();
