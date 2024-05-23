@@ -11,6 +11,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', toDoListRoutes);
 app.use('/', pageRoutes);
+app.use((req, res, next) => {
+    res.status(404).render('404.ejs');
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
