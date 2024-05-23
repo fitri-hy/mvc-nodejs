@@ -25,7 +25,7 @@ ROOT
 │   │   └── style.css
 │   ├── images/
 │   │   └──logo/
-│   │		└── logo.png
+│   │   └── logo.png
 │   └── js/
 │		└── main.js
 ├── routes/
