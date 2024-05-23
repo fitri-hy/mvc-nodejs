@@ -1,14 +1,19 @@
 {
-  "name": "mvc-node-example",
+  "name": "hytech-mvc",
   "version": "1.0.0",
-  "description": "MVC Example with Node.js and EJS",
+  "description": "MVC Javascript",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "ejs": "^3.1.7",
     "express": "^4.17.1",
     "nodemon": "^3.1.0"
-  }
+  },
+  "keywords": [],
+  "author": "HyTech Group",
+  "license": "MIT"
 }
