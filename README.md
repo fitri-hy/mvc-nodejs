@@ -25,9 +25,9 @@ ROOT
 │   │   └── style.css
 │   ├── images/
 │   │   └──logo/
-│   │   └── logo.png
+│   │      └── logo.png
 │   └── js/
-│		└── main.js
+│   │   └── main.js
 ├── routes/
 │   ├── pageRoutes.js
 │   └── toDoListRoutes.js
