@@ -4,17 +4,3 @@ pre {
 	font-family: 'Courier New', Courier, monospace;
 	line-height: 1.5;
 }
-
-pre code .keyword {
-	color: #007bff;
-	font-weight: bold;
-}
-
-pre code .string {
-	color: #28a745;
-}
-
-pre code .comment {
-	color: #6c757d;
-	font-style: italic;
-}
