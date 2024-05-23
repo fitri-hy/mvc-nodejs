@@ -12,7 +12,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', toDoListRoutes);
 app.use('/', pageRoutes);
 app.use((req, res, next) => {
-    res.status(404).render('404.ejs');
+    res.status(404).render('404', { 
+        seoTitle: '404 - HyTech MVC',
+		seoDesc: 'HyTech MVC JavaScript is a framework designed to simplify the development of JavaScript-based web applications by implementing the Model-View-Controller (MVC) architectural pattern.',
+		seoKeyword: '404, not found'
+    });
 });
 
 const PORT = process.env.PORT || 3000;

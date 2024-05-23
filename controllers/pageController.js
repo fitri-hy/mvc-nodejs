@@ -10,7 +10,7 @@ exports.getAboutPage = (req, res) => {
     res.render('about', { 
 		seoTitle: 'About - HyTech MVC',
 		seoDesc: 'HyTech MVC JavaScript is a framework designed to simplify the development of JavaScript-based web applications by implementing the Model-View-Controller (MVC) architectural pattern.',
-		seoKeyword: 'mvc, hytech, javascript, framework'
+		seoKeyword: 'about, pages'
 	});
 };
 
