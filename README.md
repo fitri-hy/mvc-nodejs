@@ -1,6 +1,6 @@
 # MVC Javascript (NodeJS)
 
-<img src="./Screenshot.png">
+<img src="./Screenshot1.png">
 
 ## Github Repository Clone 
 
