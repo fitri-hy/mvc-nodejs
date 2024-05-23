@@ -20,9 +20,9 @@
                 <div class="flex justify-between items-center mb-2">
                     <p class="line-clamp-1"><%= item %></p>
                     <div class="flex gap-2">
-                        <button class="bg-yellow-600 rounded-lg hover:bg-yellow-700 px-3 py-1 text-gray-200" onclick="showEditForm('<%= item %>', <%= index %>)">Edit</button>
+                        <button class="bg-yellow-600 rounded-lg hover:bg-yellow-700 px-3 py-1 text-gray-200" onclick="showEditForm('<%= item %>', <%= index %>)"><i class="fa fa-pencil"></i></button>
                         <form action="/to-do-list/delete/<%= index %>" method="POST">
-                            <button class="bg-red-600 rounded-lg hover:bg-red-700 px-3 py-1 text-gray-200" type="submit">Delete</button>
+                            <button class="bg-red-600 rounded-lg hover:bg-red-700 px-3 py-1 text-gray-200" type="submit"><i class="fa fa-trash"></i></button>
                         </form>
                     </div>
                 </div>
