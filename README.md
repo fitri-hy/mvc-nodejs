@@ -24,8 +24,10 @@ ROOT
 │   ├── css/
 │   │   └── style.css
 │   ├── images/
-│   │   └──logo/
-│   │      └── logo.png
+│   │   ├──logo/
+│   │   │   └── logo.png
+│   │   └──uploads/
+│   │		└── og.png
 │   └── js/
 │   │   └── main.js
 ├── routes/
