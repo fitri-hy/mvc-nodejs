@@ -2,7 +2,7 @@ const itemModel = require('../models/toDoListModel');
 
 exports.getItems = (req, res) => {
     const items = itemModel.getItems();
-    res.render('index', { items });
+    res.render('to-do-list', { items });
 };
 
 exports.addItem = (req, res) => {
@@ -10,7 +10,7 @@ exports.addItem = (req, res) => {
     if (newItem) {
         itemModel.addItem(newItem);
     }
-    res.redirect('/');
+    res.redirect('/to-do-list');
 };
 
 exports.editItem = (req, res) => {
@@ -19,11 +19,11 @@ exports.editItem = (req, res) => {
     if (index !== undefined && newItem !== "") {
         itemModel.editItem(index, newItem);
     }
-    res.redirect('/');
+    res.redirect('/to-do-list');
 };
 
 exports.deleteItem = (req, res) => {
     const index = req.params.index;
     itemModel.deleteItem(index);
-    res.redirect('/');
+    res.redirect('/to-do-list');
 };

@@ -1,6 +1,6 @@
 class ItemModel {
     constructor() {
-        this.items = ['Hello !!', 'Welcome to MVC NodeJS', 'Example To do List'];
+        this.items = ['Hello !!', 'Welcome to HyTech MVC', 'Example To do List'];
     }
 
     getItems() {

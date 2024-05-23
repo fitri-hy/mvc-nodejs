@@ -1,6 +1,8 @@
-# MVC NodeJS
+# MVC Javascript (NodeJS)
 
-Application Javascript MVC (Models, Views, Controllers), Templating & Routing.
+<img src="./Screenshot.png">
+
+## Github Repository Clone 
 
 ```
 git clone https://github.com/fitri-hy/mvc-nodejs.git
@@ -9,7 +11,39 @@ npm install
 npm start
 ```
 
-## Tech
-- Node JS
-- EJS
-- Tailwind CSS
+## Folder Sructure 
+```
+ROOT
+├── controllers/
+│   ├── pageController.js
+│   └── toDoListController.js
+├── models/
+│   └── toDoListModel.js
+├── node_modules/
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   │   └──logo/
+│   │		└── logo.png
+│   └── js/
+│		└── main.js
+├── routes/
+│   ├── pageRoutes.js
+│   └── toDoListRoutes.js
+├── views/
+│   ├── components/
+│   │   └── navbar.ejs
+│   ├── partials/
+│   │   ├── footer.ejs
+│   │   └── head.ejs
+│   ├── about.ejs
+│   ├── index.ejs
+│   ├── layout.ejs
+│   └── to-do-list.ejs
+├── LICENSE
+├── app.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
