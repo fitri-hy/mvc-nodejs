@@ -14,7 +14,8 @@
     "express": "^4.17.1",
     "express-cache-headers": "^0.1.4",
     "nodemon": "^3.1.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "sharp": "^0.33.4"
   },
   "keywords": [],
   "author": "HyTech Group",
