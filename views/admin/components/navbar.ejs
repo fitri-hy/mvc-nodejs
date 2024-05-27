@@ -1,0 +1,24 @@
+	<nav class="bg-slate-800 border-b border-slate-700">
+        <div class="flex justify-between items-center px-9 py-5">
+            <button id="menuBtn" class="lg:hidden">
+                <i class="fas fa-bars text-slate-100 text-lg"></i>
+            </button>
+            <a href="/admin" class="flex gap-2 items-center font-bold text-2xl lg:text-3xl text-gray-100">
+                <img class="h-12 w-12" src="/images/logo/logo.png">
+				<%= siteTitle %>
+            </a>
+            <div class="space-x-4">
+                <a href="/" class="flex items-center gap-2 bg-slate-700 py-2 px-4 rounded-lg hover:bg-slate-900" target="_blank">
+                    <i class="fas fa-eye text-slate-100 text-lg"></i> View
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id="sideNav" class="lg:block hidden bg-slate-800 w-64 h-screen fixed rounded-none border-none">
+        <div class="p-4 space-y-4 text-gray-200">
+			<a href="/admin" class="px-4 py-3 flex items-center space-x-4 rounded-md group hover:bg-slate-700">
+                <i class="fas fa-home"></i>
+                <span class="-mr-1 font-medium">Dashboard</span>
+            </a>
+        </div>
+    </div>
